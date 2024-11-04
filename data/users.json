@@ -1,0 +1,41 @@
+[
+  {
+    "id": "639be2e2-dd79-41f0-9ca0-cfec46c06379",
+    "name": "Aniket Methi",
+    "email": "aniket@hittbullseye.com",
+    "password": "$2a$10$d1TUtgtn8qHZxc3STA3OLOUIZSByaCPp2QCkuw2rESEfJQpGibCTC",
+    "mobile": "+91 9882121939",
+    "role": "user",
+    "followers": [
+      "fb171d69-f4cc-4a09-af51-83fc4689bce1"
+    ],
+    "following": [
+      "fb171d69-f4cc-4a09-af51-83fc4689bce1"
+    ],
+    "posts": [
+      {
+        "id": "c101d61f-10c9-4047-89e4-c515f8dcebbb",
+        "authorId": "639be2e2-dd79-41f0-9ca0-cfec46c06379",
+        "title": "Backend Assignment",
+        "description": "Hey I made some cool Rest APIs for backend assignment do check it out!",
+        "likes": 0,
+        "comments": []
+      }
+    ]
+  },
+  {
+    "id": "fb171d69-f4cc-4a09-af51-83fc4689bce1",
+    "name": "Aryan",
+    "email": "aryan1372.be22@chitkara.edu.in",
+    "password": "$2a$10$8MjVqzWhQIu/wdPLpqFEE.jchal3qHYPWrrBvS6Rd8oSyObja2epW",
+    "mobile": "+91 9816328430",
+    "role": "user",
+    "followers": [
+      "639be2e2-dd79-41f0-9ca0-cfec46c06379"
+    ],
+    "following": [
+      "639be2e2-dd79-41f0-9ca0-cfec46c06379"
+    ],
+    "posts": []
+  }
+]
