@@ -6,5 +6,22 @@
     "description": "Hey I made some cool Rest APIs for backend assignment do check it out!",
     "likes": 0,
     "comments": []
+  },
+  {
+    "id": "dbeaa8c6-1518-46f5-99e1-ec06b2b296da",
+    "authorId": "9188fc61-76f2-41f2-a0ca-ac743976bf14",
+    "title": "Backend is love (edited)",
+    "description": "I know this is a dummy edited post for backend assignment but can we talk about how beautiful Backend is ❤️",
+    "likes": 0,
+    "comments": [
+      {
+        "id": "8a1243b1-fe9d-44a3-8d9a-51fc51ed9800",
+        "authorId": "9188fc61-76f2-41f2-a0ca-ac743976bf14",
+        "text": "I agree 🙌",
+        "createdAt": "2024-11-04T13:12:20.848Z"
+      }
+    ],
+    "createdAt": "2024-11-04T13:03:57.581Z",
+    "updatedAt": "2024-11-04T13:07:47.255Z"
   }
 ]

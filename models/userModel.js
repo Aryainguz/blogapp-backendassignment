@@ -5,6 +5,7 @@ import { v4 as uuidv4 } from 'uuid';
 const usersFilePath = 'data/users.json';
 
 export const getAllUsers = () => readFile(usersFilePath);
+
 export const saveUsers = (users) => writeFile(usersFilePath, users);
 
 export const createUser = (name, email, password, mobile) => ({
@@ -16,7 +17,7 @@ export const createUser = (name, email, password, mobile) => ({
     role: 'user',
     followers: [],
     following: [],
-    posts: []
+    posts: [],
 });
 
 export const findUserByEmail = (email) => getAllUsers().find(user => user.email === email);
