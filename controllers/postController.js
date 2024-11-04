@@ -1,6 +1,15 @@
-import { createPost, getAllPosts, savePosts, addCommentToPost, deleteCommentFromPost } from '../models/postModel.js';
-import { getAllUsers, saveUsers } from '../models/userModel.js';
 import { v4 as uuidv4 } from 'uuid';
+import {
+    addCommentToPost,
+    createPost,
+    deleteCommentFromPost,
+    getAllPosts,
+    getCommentsCount,
+    likePost,
+    savePosts,
+    unlikePost
+} from '../models/postModel.js';
+import { getAllUsers, saveUsers } from '../models/userModel.js';
 
 
 export const createNewPost = (req, res) => {
@@ -94,4 +103,32 @@ export const deleteComment = (req, res) => {
     }
 
     res.json({ message: 'Comment deleted', post });
+};
+
+
+
+
+
+export const likePostController = (req, res) => {
+    const { postId } = req.params;
+    const post = likePost(postId);
+
+    if (!post) return res.status(404).json({ message: 'Post not found' });
+    res.json({ message: 'Post liked', likes: post.likes });
+};
+
+export const unlikePostController = (req, res) => {
+    const { postId } = req.params;
+    const post = unlikePost(postId);
+
+    if (!post) return res.status(404).json({ message: 'Post not found' });
+    res.json({ message: 'Post unliked', likes: post.likes });
+};
+
+export const getCommentsCountController = (req, res) => {
+    const { postId } = req.params;
+    const count = getCommentsCount(postId);
+
+    if (count === null) return res.status(404).json({ message: 'Post not found' });
+    res.json({ message: 'Comment count retrieved', commentsCount: count });
 };
