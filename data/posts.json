@@ -35,7 +35,7 @@
     "authorId": "9188fc61-76f2-41f2-a0ca-ac743976bf14",
     "title": "Another Post",
     "description": "yet another post",
-    "likes": 0,
+    "likes": 1,
     "comments": [],
     "createdAt": "2024-11-04T13:28:28.786Z",
     "updatedAt": "2024-11-04T13:28:28.786Z"
