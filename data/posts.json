@@ -39,5 +39,15 @@
     "comments": [],
     "createdAt": "2024-11-04T13:28:28.786Z",
     "updatedAt": "2024-11-04T13:28:28.786Z"
+  },
+  {
+    "id": "72b268e3-b1c0-4101-b065-478790d14af7",
+    "authorId": "4c9784bc-12ef-4f18-9872-e89c3ad56b60",
+    "title": "yet another post",
+    "description": "post content",
+    "likes": 2,
+    "comments": [],
+    "createdAt": "2024-11-05T08:27:49.027Z",
+    "updatedAt": "2024-11-05T08:27:49.027Z"
   }
 ]

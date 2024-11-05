@@ -44,5 +44,18 @@
       "dbeaa8c6-1518-46f5-99e1-ec06b2b296da",
       "e6973140-1cf4-4755-8125-534c87406eef"
     ]
+  },
+  {
+    "id": "4c9784bc-12ef-4f18-9872-e89c3ad56b60",
+    "name": "jhon doe",
+    "email": "jhon@gmail.com",
+    "password": "$2a$10$u7Z7Cdndu/ZvNHfSV922ge3gF64zpCFNVmwgL7UPQZMFMmEuj/CKC",
+    "mobile": "12344565666",
+    "role": "user",
+    "followers": [],
+    "following": [],
+    "posts": [
+      "72b268e3-b1c0-4101-b065-478790d14af7"
+    ]
   }
 ]
