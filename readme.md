@@ -78,4 +78,4 @@ GET /api/v1/post/:postId/comments/count
 ```
 
 
-Made with ❤️ By Aryinguz
+Made with ❤️ By Aryainguz
